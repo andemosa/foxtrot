@@ -6,13 +6,14 @@
 
 html{
     font-family: Montserrat, sans-serif;
+    background-color: #0a3888;
 }
 
 /* Header Start*/
 
 header{
     display: flex;
-    background-color: #0a3888;
+    background-color: rgb(207, 203, 203);
     position: fixed;
     top: 0;
     left: 0;
@@ -35,7 +36,7 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: rgb(207, 203, 203);
+    color: #0a3888;
 }
 
 /* Header End*/
@@ -59,6 +60,8 @@ nav a{
     padding: 20px;
     margin: 80px auto 20px;
     animation: Slide_down .9s ease-in ;
+    height: 75vh;
+    padding-top: 5em;
    /* box-shadow: 0 0 10px 2px; */ 
 }
 
@@ -66,6 +69,7 @@ h3{
     color: #0a3888;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
+    margin-bottom: 2em;
 }
 
 span{
@@ -79,7 +83,8 @@ input, .btn{
     border-radius: 10px;
     padding: 15px;
     border-style: none;
-    margin-top: 10px;
+    margin: 2em auto;
+    height: 5em;
 }
 .btn{
     width: 40%;
@@ -89,7 +94,8 @@ input, .btn{
     background-color: #0a3888;
     color: #fff;
     /* margin-left: 15px; */
-    margin-bottom: 15px;
+    margin-bottom: 2em;
+    height: 3em;
 }
 .btn:hover{
     color: #0a3888;
@@ -209,18 +215,24 @@ nav li{
 
 .container{
     margin: 45px auto 10px;
+    height: 65vh;
+    padding-top: 3em;
 }
 
 h3 {
     font-size: 1em;
+    margin-bottom: 2em;
 }
 span{
     font-size: 1em;
 }
-
+input, .btn{
+    margin: 2em auto;
+    height: 4em;
+}
 .btn{
     font-size: 1em;
-    margin-bottom: 15px;
+    margin-bottom: 2em;
 }
 
 /* Footer Start*/
